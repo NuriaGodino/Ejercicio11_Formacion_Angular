@@ -1,0 +1,33 @@
+<div>
+    <h1>Buscar cursos por alumno</h1>
+    <br>
+    <div class="seleccionador">
+        Selecciona alumno:
+        <select name="alumno" [(ngModel)]="usuario">
+            <option *ngFor="let a of alumnos" value="{{a.usuario}}">{{a.nombre}}</option>
+        </select>
+        <button (click)="cursosPorAlumno()">Buscar</button>
+    </div>
+    <br>
+    <h3>Cursos</h3>
+    <table border="2" *ngIf="alumnos">
+        <thead>
+            <tr>
+                <th>ID </th>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Duracion</th>
+                <th>Fecha Inicio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let g of cursos">
+                <td>{{g.idCurso}}</td>
+                <td>{{g.nombre}}</td>
+                <td>{{g.precio}}</td>
+                <td>{{g.duracion}}</td>
+                <td>{{g.fecha}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

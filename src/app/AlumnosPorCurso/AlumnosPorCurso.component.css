@@ -1,0 +1,29 @@
+
+.seleccionador{
+    width: 30%;
+}
+div{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(191, 255, 255);
+}
+
+h1{
+    width: 40%;
+    margin: auto;
+    color: rgb(75, 74, 74);
+}
+
+h3{
+    width: 10%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table{
+    margin: auto;
+}
+
+
+
