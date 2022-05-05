@@ -7,12 +7,20 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AlumnosPorCursoComponent } from './AlumnosPorCurso/AlumnosPorCurso.component';
 import { CursosPorAlumnoComponent } from './CursosPorAlumno/CursosPorAlumno.component';
+import { AltaAlumnoComponent } from './AltaAlumno/AltaAlumno.component';
+import { ConsultaCursosComponent } from './ConsultaCursos/ConsultaCursos.component';
+import { AltaCursoComponent } from './AltaCurso/AltaCurso.component';
+import { MatricularComponent } from './Matricular/Matricular.component';
 
 @NgModule({
-  declarations: [			
+  declarations: [							
     AppComponent,
       AlumnosPorCursoComponent,
-      CursosPorAlumnoComponent
+      CursosPorAlumnoComponent,
+      AltaAlumnoComponent,
+      ConsultaCursosComponent,
+      AltaCursoComponent,
+      MatricularComponent
    ],
   imports: [
     BrowserModule,

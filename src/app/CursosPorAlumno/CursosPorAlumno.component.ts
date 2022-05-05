@@ -17,7 +17,7 @@ export class CursosPorAlumnoComponent implements OnInit {
   
   constructor(private service:FormacionService, private router: Router) { 
    this.todosCursos()
-    this.todosAlumnos()
+   this.todosAlumnos()
   }
 
   cursosPorAlumno(){

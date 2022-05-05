@@ -1,0 +1,31 @@
+ <div>
+  <h1>Buscar matriculas</h1>
+  <br>
+  <label>Desde</label>
+  <input type="date" [(ngModel)]="f1">
+  <br>
+  <br>
+  <label>Hasta</label>
+  <input type="date" [(ngModel)]="f2">
+  <br>
+  <br>
+  <button (click)="consultaCursosFecha()">Enviar</button>
+  <h2>Datos</h2>
+  <table border="2" *ngIf="matriculas">
+    <thead>
+        <tr>
+            <th>Curso</th>
+            <th>Fecha inicio</th>
+            <th>Alumno inscrito</th>
+        </tr>
+    </thead>
+        <tbody>
+            <tr *ngFor="let m of matriculas">
+                <td>{{m.idCurso.nombre}}</td>
+                <td>{{m.idCurso.fechaInicio}}</td>
+                <td>{{m.alumno.nombre}}</td>
+            </tr>
+    </tbody>
+</table>
+<br>
+</div>

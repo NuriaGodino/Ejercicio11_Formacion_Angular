@@ -1,0 +1,26 @@
+
+div{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(191, 255, 255);
+}
+
+h1{
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(75, 74, 74);
+}
+
+input{
+    font-size: large;
+    margin-left: 3px;
+}
+
+label{
+    font-size: large;
+    margin-left: 5px;
+}
+
+table{
+    margin: auto;
+}

@@ -21,6 +21,22 @@ export class AppComponent {
     this.router.navigate(['/cursosPorAlumno'])
   }
 
+  routeAltaAlumno(){
+    this.router.navigate(['/altaAlumno'])
+  }
+
+  routerBuscarMatriculas(){
+    this.router.navigate(['/buscarMatriculas'])
+  }
+
+  routerAltaCurso(){
+    this.router.navigate(['/altaCurso'])
+  }
+
+  routerMatricular(){
+    this.router.navigate(['/matricular'])
+  }
+
   ngOnInit() {
   }
 }

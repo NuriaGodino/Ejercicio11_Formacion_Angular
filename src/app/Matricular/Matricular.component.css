@@ -1,0 +1,21 @@
+
+div{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(191, 255, 255);
+}
+
+h3{
+    margin-top: 0px;
+    text-align: center;
+}
+
+input{
+    font-size: large;
+    margin-left: 3px;
+}
+
+label{
+    font-size: large;
+    margin-left: 3px;
+}
